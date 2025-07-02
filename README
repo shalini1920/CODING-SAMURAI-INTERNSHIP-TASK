@@ -32,7 +32,7 @@ link:https://blog-app-a22b1.web.app
 | *Database*    | Firebase Firestore (NoSQL)           |
 | *Admin SDK*   | Firebase Admin SDK (for secure server access) |
 | *Styling*     | CSS Flexbox, Google Fonts (Poppins), Transitions |
-| *Optional*    | Firebase Hosting / Vercel (for deployment) |
+| *deployment*    | Firebase Hosting / Vercel  |
 
 ---
 
