@@ -1,0 +1,138 @@
+/* Import a modern Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+body.dark {
+  background: linear-gradient(to right, #121212, #1f1f1f);
+  color: #f1f1f1;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #0077b6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+input, textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #00b4d8;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button {
+  background: #00b4d8;
+  color: white;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #0096c7;
+}
+
+#toggleTheme {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: #0077b6;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+#toggleTheme:hover {
+  background: #023e8a;
+}
+
+.blog-post {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s ease;
+}
+
+body.dark .blog-post {
+  background: #2e2e2e;
+}
+
+.blog-post input.edit-title,
+.blog-post textarea.edit-content {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  padding: 10px;
+  background: white;
+  color: #333;
+}
+
+body.dark .blog-post input.edit-title,
+body.dark .blog-post textarea.edit-content {
+  background: #444;
+  color: #f1f1f1;
+}
+
+.blog-post button {
+  margin-right: 10px;
+  margin-top: 8px;
+  background: #0096c7;
+  color: white;
+}
+
+.blog-post button:hover {
+  background: #0077b6;
+}
+
+small {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #666;
+}

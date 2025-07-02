@@ -1,0 +1,38 @@
+# 📝 Modern Blog Application
+
+A fully functional and visually appealing *Blog Application* built for internship learning using:
+
+- 🔧 *Node.js* + *Express.js* for backend
+- 🔥 *Firebase Firestore* as the cloud NoSQL database
+- 🌐 *HTML, CSS, JavaScript* for frontend
+- 🎨 Stylish *modern UI* with Dark Mode
+- ✏ CRUD features (Create, Read, Update, Delete)
+- 👍 Like + 📤 Share buttons (Frontend Only)
+---
+
+
+## 🚀 Features
+
+- ✍ Create blog posts
+- 📖 View all blog posts (latest first)
+- 🔄 Edit and 🗑 Delete blogs
+- 🌗 Dark Mode toggle
+- 👍 Like button (local count)
+- 📤 Share blog (copy text or use Web Share API)
+- 🎨 Clean, professional blog UI with background gradients, rounded elements, and Google Fonts
+
+---
+
+## 🛠 Technologies Used
+
+| Category        | Technology                          |
+|-----------------|--------------------------------------|
+| *Frontend*    | HTML, CSS, JavaScript                |
+| *Backend*     | Node.js, Express.js                  |
+| *Database*    | Firebase Firestore (NoSQL)           |
+| *Admin SDK*   | Firebase Admin SDK (for secure server access) |
+| *Styling*     | CSS Flexbox, Google Fonts (Poppins), Transitions |
+| *Optional*    | Firebase Hosting / Vercel (for deployment) |
+
+---
+
